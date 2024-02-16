@@ -1,0 +1,34 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+echo "Usage: ./usradd Arg1,Arg2,Arg3(,del)"
+exit 8
+fi
+
+sum=`echo "$1" | sed 's@,@\n@g'|wc -l`
+
+if [ `echo "$1" | cut -d , -f$sum` == del ] &> /dev/null;then
+   for usr in `echo "$1" | sed 's@,@\n@g' | head -$[$sum-1]`;do
+   if ! id $usr &> /dev/null;then
+      echo "$usr does not exist."
+   else
+      sudo userdel $usr
+      echo "$usr has been deleted."
+   fi
+   done
+elif [ -s `echo "$1" | cut -d , -f$sum` ] &> /dev/null;then
+#elif [ `echo "$1" | cut -d , -f$sum` == [[:space:]] ] &> /dev/null;then【-z、! -n也行】
+   echo "Usage: ./usradd Arg1,Arg2,Arg3(,del)"
+else
+#declare -i i=1
+   for usr in `echo "$1" | sed 's@,@\n@g'`;do
+   if id $usr &> /dev/null;then
+      echo "$usr has already existed."
+   else
+      sudo useradd $usr && echo "$usr:$usr" | sudo chpasswd
+      echo "$usr has been added."
+   fi
+#usr$i=$usr
+#i=$i+1
+   done
+#当然此时的i-1也可以作为sum
+fi

@@ -1,0 +1,23 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+  echo  'Usage: ./exist.sh Arg1'
+  exit 3
+fi
+if ! expr $1 + 0 &> /dev/null;then
+  echo  'Please give me a number!'
+  exit 4
+fi
+
+declare -i sum=0
+for i in `seq 0 2 $1`; do
+sum=$sum+i
+done
+echo "The sum of all those even numbers below $1, is $sum"
+
+sum=0
+for i in `seq 1 2 $1`; do
+sum=$sum+i
+done
+echo "The sum of all those odd numbers below $1, is $sum"
+
+exit 5

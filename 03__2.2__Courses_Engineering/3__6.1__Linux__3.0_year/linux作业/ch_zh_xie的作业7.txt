@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+  echo  'Usage: ./exist.sh Arg1'
+  exit 3
+fi
+if ! expr $1 + 0 &> /dev/null;then
+  echo  'Please give me a number!'
+  exit 4
+fi
+declare -i sum=0
+for i in `seq 0 3 $1`; do
+sum=$sum+i
+done
+echo "The sum of all the numbers below $1 that could be devided by 3, is $sum."
+exit 5

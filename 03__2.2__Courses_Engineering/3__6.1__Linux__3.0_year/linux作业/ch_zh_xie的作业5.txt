@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ $# -eq 0 ];then
+  echo  'Usage: ./exist.sh Arg1 Arg2 ... Arg4'
+$#if $# -ne 0, such as 1,2,3,4,5 args, then it will appear at most 4 of them, or maybe less, more precisely: the first 4or3or2or1 args of them.
+  exit 3
+fi
+echo -e "$1\n$2\n$3\n$4" | sort -n | tail -$#
+#该句可能分号也行？哦，不行。
+
+#我想是否能先给一个脚本$#，再让该脚本用sed给第二个脚本的echo所在行里加入至"$1\n$2\n$3\n$4...\n$$#"。但是第二个脚本，已经隔了一个脚本，怎么获得这些参数的值？而若第一个脚本传给第二个脚本参数值，则这又回到了以前。
+
+#那可否用第一个脚本复制./exist.sh Arg1 Arg2 ... ArgN这段history命令，然后echo出来并模拟按键enter，即\n= =。
+
+#或者使用cut对历史命令进行分割该条历史命令并一个一个地传参数给第二个脚本？
+

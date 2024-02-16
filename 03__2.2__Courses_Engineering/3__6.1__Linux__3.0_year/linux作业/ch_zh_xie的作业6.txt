@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+  echo  'Usage: ./exist.sh Arg1'
+  exit 3
+fi
+directory=`echo $1 | sed -r 's@(/.*/)[^/]*@\1@'`
+#because we use the () to refer to \(\), so we have to add -r
+#i don't think .* is meaningful, we'd better replace [^/].* using [^/]*
+file=`echo $1 | sed -r 's@/.*/([^/]*)@\1@'`
+#i don't think + is meaningful. but even if we get rid of +, -r cant be ignored.
+#i use * to replace the +.
+lastname=`echo $1 | sed -r 's@/.*/[^.]*.(.*)@\1@'`
+echo "the path of the file is: $directory"
+echo "the name of the file is: $file"
+echo "the type of the file is: $lastname"
+
