@@ -5,6 +5,13 @@
 
 ## 关于
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 包含笔记 [「热力学」与「统计物理」](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science\12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
+        * 使用理论 ⊷ 👉 [Illusions_of_Illustrations_·_Zodiac](https://gitee.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)
+            * 属于书籍 [三本 电子书](https://gitee.com/ChenZhu-Xie/3_books_with_cpp)
+                * 内容来自 ⊂ [本科 创造](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/06__3.1__Self_Creations)
+                    * 属于生涯 ⊂ [本科 活动](https://gitee.com/ChenZhu-Xie/undergraduate_activities)
+                * 动机源于 ≺ [手写书籍 数字化工程](https://gitee.com/ChenZhu-Xie/senior-high-school_activities/tree/master/4__6.2__Books_digitalization_project__3.0_year)
+                    * 属于生涯 ⊂ [高中 活动](https://gitee.com/ChenZhu-Xie/senior-high-school_activities)
     * 
 * English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
@@ -25,7 +32,7 @@
 ## 实施
 1. 演讲 ppt 含视频
     * 要播放视频，需要进入「Presentations」目录下的「子目录」中查看 ppt
-2. 学业水平 含随时间演化的切片/断面
+2. 学业水平 含「随时间演化」的切片/断面
     * 需要进入「Total_Grades」文件夹的「子文件夹」中查看 相关文件
 
 ## 历史
