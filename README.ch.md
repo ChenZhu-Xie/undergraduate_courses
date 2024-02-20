@@ -1,34 +1,35 @@
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『主入口』页面") -->
-![fig](https://gitee.com/ChenZhu-Xie/offline_web_pages/raw/master/img/index.png "『主入口』页面")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/GR_OneNote.png "General Relativity - OneNote")
 
-* English「README」ⓔ 👉 [undergraduate_courses](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
-
-# 静态 个人网页 (解谜密码 :point_right: 登陆 世外桃源)
+# 本科 个人课程
 
 ## 关于
-* 该项目 👉 [脱机网页们](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B) 是 16 岁的我 做的 静态个人网页（集）
+* 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 
+* English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
 ## 介绍
-* 高中时期 的 微机课 大作业
-* 用 **FrontPage** 做的
-    * 限于当时的时间和技术，只能做到该程度，效果上可能差强人意
-    * 但点子上，有双向链接、解谜/密、修改游戏文件、太空探索、精选背景音乐等，『彷徨』与『呐喊』的影子
+* 大学本科时期 的 各主要学科（分为 科学、技术）的 课程笔记、作业，以及 演讲 ppt
+    * 「课程笔记、ppt」等「主要内容」单列「Courses 目录」中
+    * 而「作业、ppt 附件」等「详细信息」，放在「对应序号」的「子目录」中
+* 除了 3 个 Courses 文件夹之外，Total_Grades 文件夹内的文件排列，也采取了相同的规则
+    * 「重要内容」以「文件」的形式，放在「一级目录」中
+    * 「文件」的「详细信息」以「文件夹」的形式，放在与「文件」有「相同序号」的「二级目录」中
 
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/entrance.png "『隐藏入口 / 传送门』页面") -->
-![fig](https://gitee.com/ChenZhu-Xie/offline_web_pages/raw/master/img/entrance.png "『主入口』页面")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes") -->
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Python_Self-study.png "Python - Learning Notes")
 
 ## 实施
-1. 从 “主页（我的小网站入口）.lnk” 进入 Home。  
-2. 自由探索 :point_right: 直到获得密码 :point_right: 进入隐藏网页。
-    * 解开谜题！否则你将永远困在：这片虚无之地！
-3. PS: 由于年代久远 (2014_05)，页面音乐可能无法播放，  
-    * 且背景图片尺寸无法自适应浏览器窗口大小。
+1. 演讲 ppt 含视频
+    * 要播放视频，需要进入「Presentations」目录下的「子目录」中查看 ppt
+2. 学业水平 含随时间演化的切片/断面
+    * 需要进入「Total_Grades」文件夹的「子文件夹」中查看 相关文件
 
 ## 历史
-* 该项目 👉 [脱机个人网页们](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B)
-    * （个人时间）由 16 岁小谢
-    * （世界时间）在 2014 年 的 
-    * （个人阶段）高中时期 搭建
+* 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * （个人时间）由 18 - 22 岁小谢
+    * （世界时间）在 2016 - 2020 年的 
+    * （个人阶段）大学时期 创建的
 
 <!-- ## 软件架构
 软件架构说明

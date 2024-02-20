@@ -1,32 +1,34 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『Home/Main entrance』page")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote")
 
-* 中文「自述文档」㊥ 👉 [本科_课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
-
-# Static webpages (Crack password :point_right: log in Xanadu)
+# Undergraduate Personal Courses
 
 ## About
-* This project 👉 [offline web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) is a series of static personal webpages I created at the age of 16.
+* This repo 👉 [undergraduate courses](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 
+* English「README」ⓔ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
 ## Description
-* Computer course assignment during high school.
-* Old technology stack: **FrontPage**.
-    * Limited to the time and technology at that time, the effect may be unsatisfactory
-    * But in terms of ideas, there are bi-directional links, puzzle solving/decryption, modifying game files, space exploration, hand-picked background music, etc. All of this constitutes the exploration, shouting, and wandering of that personal period.
+* Course notes, assignments, and presentation slides for major disciplines (divided into science and technology) during undergraduate studies
+    * List the「main content」such as「course notes & PowerPoint」in the「Courses directory」separately
+    * While「detailed information」such as「homework, ppt attachments」are placed in the「subdirectory」of「corresponding serial numbers」
+* The file arrangement in the「Total_Grades folder」, also follows「the same rules」as the three「Courses folder」
+    * 「Important content」is placed as「files」in the「primary directory」
+    * The「detailed information」of「the file」is placed in the form of「a folder」in the「secondary directory」with「the same serial number」as「the file」
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/entrance.png "『Portal/Hidden entrance』page")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes")
 
 ## Inplementation
-1. Enter homepage from "Homepage (My Mini Website Portal). lnk".  
-2. Explore freely :point_right: until you decrypt the password :point_right: and unlock the hidden webpages.
-    * Solve the riddle! Or you'll be stuck here: in the middle of nowhere forever!
-3. PS: Due to its age (2014_05), page music may not be playable,  
-    * and the background image size cannot adapt to the browser window size.
+1. Powerpoint includes videos
+    * To play the videos of a PPT, go to the corresponding「subdirectory」of「Presentations」to view the PPT
+2. Academic grades/performance/achievements includes「slices over time」or「sections of time evolution」
+    * To view relevant files, enter the「subfolder」of the「Total_Grades folder」
 
 ## History
-* This project 👉 [offline personal web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) was built
-    * (Personal time) by 16-year-old little Xie
-    * (Personal stage) during high school
-    * (World time) in 2014
+* This repo 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses) was built
+    * (Personal time) by 18~22-year-old little Xie
+    * (World time) during 2016 - 2020
+    * (Personal stage) when I was in college
+
 
 <!-- ## Software Architecture
 Software architecture description
