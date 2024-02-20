@@ -1,5 +1,5 @@
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/GR_OneNote.png "General Relativity - OneNote")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes") -->
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science courses - Learning Notes")
 
 # 本科 个人课程
 
@@ -7,6 +7,9 @@
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
     * 
 * English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
+
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/GR_OneNote.png "General Relativity - OneNote")
 
 ## 介绍
 * 大学本科时期 的 各主要学科（分为 科学、技术）的 课程笔记、作业，以及 演讲 ppt

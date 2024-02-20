@@ -1,0 +1,348 @@
+\setchapterpreamble[u]{\margintoc}
+\chapter{What is light?}
+\labch{chapter2}
+
+从十七世纪上半叶到十八世纪末， 通过“实验现象 $ \to $ ‘合理’揣测 $ \to $ 建模解释”的方式，
+人们探究和争论着光的本质。
+
+\begin{itemize}[noitemsep,leftmargin=20pt]
+	\item 笛卡尔（1596）、格里马第（1618）、波义耳（1627）、惠更斯（1629）、胡克（1635）、
+		  牛顿（1643）\ldots
+	\item 拉普拉斯（1749）、托马斯·杨（1773）、马吕斯（1775）、布儒斯特（1781）、泊松（1781）、
+		  阿拉戈（1786）、夫琅禾费（1787）、菲涅尔（1788）、柯西（1789）\ldots
+\end{itemize}
+
+可惜大江东去， 浪淘尽千古风流人物， 将近两个世纪的螺旋上升的历史， 埋葬了无数观察棋局落子规则的先辈们，
+连同他们模型中深深浅浅的揣测和尝试， 如相对于粒子学说占优的波动学说， 将光波比作声波， 认为光波是纵波；
+认为光波是机械波， 需要介质传递， 而介质被称为以太 \ldots 然而光波既不是纵波， 也不需要媒介承载，
+以太也不存在 \ldots 因此细节再丰富的经验公式， 也无法掩盖这个时期的人们对光规律的认识，
+仍只停留在启蒙阶段。
+
+从十八世纪下半叶到十九世纪末， 并行的第二条线程上， 反倒是另一支研究电磁现象的队伍， 异军突起、弯道超车，
+精确地将光波纳入电磁波的集合， 给出了波动学派梦寐以求的， 光波的数学形式。——光波的本质，
+就是电磁场波动方程的解析解。
+
+\begin{itemize}[noitemsep,leftmargin=20pt]
+	\item 库伦（1736）、J.B.毕奥（1774）、安培（1775）、奥斯特（1777）、F.萨伐尔（1791）、
+		  法拉第（1791）\ldots
+	\item 斯托克斯（1819）、麦克斯韦（1831）、莫雷（1838）、迈克尔逊（1852）、J.J.汤姆森（1856）、
+		  赫兹（1857）\ldots
+\end{itemize}
+
+二十世纪初， 黑体辐射（ $ \varepsilon $ ）、光电效应（ $ \nu $ ）、康普顿X射线散射（ $ p $ ）、
+光压（ $ p $ ）的存在， 光波有最小能量单元， 该单元也有相应的动量， 于是光的粒子性呈现出来。
+
+同一时期， 二次电子发射机制， 光电倍增管， 单光子探测器， 如约而至。
+
+\begin{itemize}[noitemsep,leftmargin=20pt]
+	\item 普朗克（1858）、爱因斯坦（1879）、康普顿（1892）\ldots
+\end{itemize}
+
+二十世纪下半叶， 电子的双缝衍射， 证实德布罗意关系在实物体系也成立， 稳固了非实物体系———
+光的波粒二象性的认识。
+
+同一时期， 激光的发明， 诞生了与黑体内最杂乱无章的热辐射相对应的， 最井然有序的辐射，
+自此人类终于追梦到了两个几乎像南极北极一样绝对纯净但又绝对对立的理想之国
+\sidenote{《统计物理》邂逅了《激光原理》。}。
+
+\begin{itemize}[noitemsep,leftmargin=20pt]
+	\item 乔治·汤姆森（1892）、梅曼（1927）\dots
+\end{itemize}
+
+二十一世纪初， 单光子源出现， 人类在可以探测单光子的同时， 也可以制造和发射单光子了
+\sidenote{一般而言， 在历史上的同一时间截面， 检测精度总是高于加工精度、同一精度下检测难度低于制造难度。}。
+
+波粒二象性、实物与辐射， 两对四个概念， 正因其最现实， 所以也最魔幻；正因其既现实又魔幻， 因此也最吸引人。
+
+而最物质和最不物质的东西， 都需要用最严密的数学来描述， 因为只有第三种极致， 配得上这两种极致。
+
+\section{Electromagnetic wave}
+
+这条世界线的宇宙也诞生于一场大爆炸， 不过这次Big Bang确定是人为引发的。
+
+这条世界线的盘古名为“麦克斯韦”， 他所创生的天地， 被后世称为《电动力学》。
+
+《经典电动力学》又发祥于“麦氏方程组的微分形式”。 由之导出定态波动方程这样一个不含时的泛定方程，
+即亥姆霍兹方程， 再结合边界条件， 便可解出泛定方程系数待定的解， 如行波， 驻波，
+但更多情况下的解既不是在三个维度上的行波， 也不是三个维度上的驻波， 而是在开放和半开放的维度和方向上是行波，
+而在两端封闭的维度上为驻波， 并且在两端封闭的方向上， 振幅随空间的起伏的空间周期、波长、波矢、
+本征值的取值均是分立的， 取值不同的本征值对应不同本征模式的本征函数（子波）， 而这些子波的线性叠加，
+便构筑出了相应边界条件下的可能存在的解。 若再给定初始条件， 还可以解出解中的各项待定系数，
+确定初始时间断面之后的波的时空演化轨迹。 于是便可通过《数学物理方法》上经典的波动形式， 描绘光
+\sidenote{
+	事实上，在作者看来，《电动力学》电磁场内不同形式和维度上的驻波、《激光原理》中稳定光场分布的各种模式，
+	连同《量子力学》中的“一维无限深势阱势下的定态薛定谔方程的解”、封闭空间导致粒子与波的动量波矢均分立取值
+	等等， 其源头理应均可追溯到《数学物理方法》中“边界条件、泛定方程均齐次的分离变数法/傅里叶级数法”中的
+	“两端固定的一维弦的横振动”这个“第一类边界问题”；它首先给数学家们带来了启发，接着给物理学家提供了遐想。
+}。
+
+落实到《电动力学》中的具体场景， 在一个维度半封闭、两个维度自由的导体内表面，
+可解出导体内电场为一沿着几乎平行于界面内法线向导体内部传播， 并随着深入距离的增加而振幅指数衰减的行波、
+折射波（无论入射波方向如何）；而在一个维度全封闭、两个维度自由的谐振腔内\dots；
+两个维度封闭、单维度自由的波导内\dots；或三个维度上均有边界的封闭空间中\dots。
+
+激光是电动力学所解出的平面电磁波集全有序时的极端情形， 另一个情形是热辐射， 此时的电磁波、
+电磁场便是统计物理、量子电动力学的范畴。因此麦克斯韦所开辟的经典电动力学是万物之母， 所解出的行波、驻波们，
+往下平行地分化了两个分支， 一是井然有序的激光， 二是极度无序的统计物理中的光子气体。
+这便找到了我们在宗谱上的绝对位置， 以及追溯到了我们的兄弟和父母。
+
+\subsection{无源介质中电磁场波动方程}
+
+可以证明 \sidenote{其来源可查看一份由Docear绘制的思维导图。}， 普遍形式的微分形式的麦氏方程组，
+其四个方程均仍适用于非均匀、各向异性， 甚至非线性的电磁介质， 并且适用于非稳恒电磁场。以SI单位制写为：
+
+\marginnote[-21.5pt]{
+	\begin{kaobox}[frametitle=定理 2.1.1 \  注释]
+		\begin{itemize}[leftmargin=13pt]
+			\item[$\bigstar$] 各物理量头上腭化符代表时变
+			\item[$\bigstar$] 花体代表相应物理量的数学表达式是实的，虚部为零
+			\item[$\bigstar$] 这里不考虑将 $ {\tilde {\mathbcal J}_f} $ 和 $ {\bm v} $ 扩展为
+							  满足洛伦兹协变的四维矢量；因为暂不需将Maxwell方程组拓展为描绘相对性的
+							  高速带电粒子所激发的统一电磁场的协变形式。
+		\end{itemize}
+	\end{kaobox}
+}
+
+\begin{theorem}[Maxwell方程组 - 微分形式]
+	\begin{equation}\Large
+		\left\{ {\begin{array}{*{20}{c}}
+			{\nabla  \cdot \tilde {\mathbcal D} = {{\tilde \varrho }_f}}\\
+			{\nabla  \cdot \tilde {\mathbcal B} = 0}\\
+			{\nabla  \times \tilde {\mathbcal E} =  - \frac{{\partial \tilde {\mathbcal B}}}{{\partial t}}}\\
+			{\nabla  \times \tilde {\mathbcal H} = {{\tilde {\mathbcal J}}_f} + \frac{{\partial \tilde {\mathbcal D}}}{{\partial t}}}
+			\end{array}} \right.
+	\end{equation}
+\end{theorem}
+
+其中， $ \tilde {\mathbcal D},\tilde {\mathbcal B},\tilde {\mathbcal E},\tilde {\mathbcal H} $
+都是实的、具有物理意义的， 复色场、时变场。 这体现了Maxwell方程组包罗万象、无一例外的普适性。
+
+考虑如下理想电介质， 其自由电荷体密度 $ {\tilde \varrho _f} = 0 $， 传导电流面密度
+$ {\tilde {\mathbcal J}_f} = {\tilde \varrho _f} \cdot {\bm v} = {\bm 0} $
+\sidenote[][]{
+	在导体中， 当电磁波周期大于材料固有的特征时间 $ \tau $ ， 即电磁波频率不太高的良导体条件下，
+	良导体内部自由电荷分布以指数衰减， 自由电荷只能分布于导体表面。 但导体内部的传导电流却可能不为零，
+	这相当于导体内部 $ {\tilde \varrho _f} \to 0 $ 虽趋近于零， 但 $ {\left| {\bm v} \right|} $
+	仍较大， 以至于 $ {\tilde {\mathbcal J}_f} = {\tilde \varrho _f} \cdot {\bm v} \ne {\bm 0} $ 。\\
+	\\
+	\leftline{（PS：以上结论可通过解下述方程组查看：} % 单行左对齐； 这里也可以加 \raggedright 以使得上一“段”也左对齐了，但内嵌的数学公式会出格，不好看；另外， \raggedright 若放在上一段之前，则会编译失败，不知道为什么；与之同类的下一个sidenote也不能这么做。
+	\begin{equation}
+		\left\{ \begin{array}{l}
+			\nabla  \cdot \tilde {\mathbcal D} = {{\tilde \varrho }_f}\\
+			\nabla  \cdot {{\tilde {\mathbcal J}}_f} + \frac{{\partial {{\tilde \varrho }_f}}}{{\partial t}} = 0\\
+			{{\tilde {\mathbcal J}}_f} = \sigma \tilde {\mathbcal E}
+			\end{array} \right.
+	\end{equation}
+}
+， 则四号方程右侧只剩极化电流与位移电流之和
+$ {{\partial \tilde {\mathbcal D}} \mathord{\left/
+ {\vphantom {{\partial \tilde {\mathbcal D}} {\partial t}}} \right.
+ \kern-\nulldelimiterspace} {\partial t}} $；
+将考虑上述条件下的四号方程， 代入经 $ \nabla \times $ 作用后的三号方程中， 得：
+\begin{align}
+	\nabla  \times \left( {\nabla  \times \tilde {\mathbcal E}} \right) &= \nabla  \times \left( { - \frac{{\partial \tilde {\mathbcal B}}}{{\partial t}}} \right) =  - \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal B}} \right) \notag \\
+	&\xrightarrow[{\tilde {\mathbcal B} = {\mu _0}\left( {\tilde {\mathbcal H} + \tilde {\mathbcal M}} \right)}]{\text{四号方程}} - {\mu _0}\frac{\partial }{{\partial t}}\left( {\frac{{\partial \tilde {\mathbcal D}}}{{\partial t}} + \nabla  \times \tilde {\mathbcal M}} \right) \notag \\
+	&=  - {\mu _0}\left[ {\frac{{{\partial ^2}\tilde {\mathbcal D}}}{{\partial {t^2}}} + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)} \right] \notag \\
+	&\xrightarrow[{c = \frac{1}{{\sqrt {{\mu _0}{\varepsilon _0}} }}}]{{\tilde {\mathbcal D} = {\varepsilon _0}\tilde {\mathbcal E} + \tilde {\mathbcal P}}} - \frac{1}{{{c^2} \cdot {\mu _0}{\varepsilon _0}}} \cdot {\mu _0}\left[ {\frac{{{\partial ^2}\left( {{\varepsilon _0}\tilde {\mathbcal E} + \tilde {\mathbcal P}} \right)}}{{\partial {t^2}}} + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)} \right] \notag \\
+	&=  - \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal E}}}{{\partial {t^2}}} - \frac{1}{{{c^2} \cdot {\varepsilon _0}}}\left[ {\frac{{{\partial ^2}\tilde {\mathbcal P}}}{{\partial {t^2}}} + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)} \right]
+\end{align}
+
+便有无源非线性电磁介质中， 电场波动方程的最普遍形式：
+
+\begin{corollary}[无源非线性电磁介质 - 电场波动方程的最普遍形式]
+	\begin{equation}
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal E}} \right) + \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal E}}}{{\partial {t^2}}} =  - \frac{1}{{{\varepsilon _0}{c^2}}}\left[ {\frac{{{\partial ^2}\tilde {\mathbcal P}}}{{\partial {t^2}}} + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)} \right]		
+	\end{equation}
+\end{corollary}
+
+同理， 通过类似的步骤， 可得无源非线性电磁介质中， 磁场波动方程的最普遍形式：
+
+\begin{corollary}[无源非线性电磁介质 - 磁场波动方程的最普遍形式]
+	\begin{equation}
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal H}} \right) + \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal H}}}{{\partial {t^2}}} =  - \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal M}}}{{\partial {t^2}}} + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal P}} \right)
+	\end{equation}
+\end{corollary}
+
+上述一组方程
+\sidenote{
+	注意到上述六大物理量 $ \tilde {\mathbcal E} $ , $ \tilde {\mathbcal P} $ , $ \tilde {\mathbcal D} $ ,
+$ \tilde {\mathbcal H} $ , $ \tilde {\mathbcal M} $ , $ \tilde {\mathbcal B} $ 都是叠加场。 
+这些叠加场所构成的波动方程多无法直接求解。 一个办法是只考虑具有相同频率的场们所构成的方程， 
+即将方程单色化。 为此首先需将六大物理量单色化， 这样它们才可在频率上统一， 并与方程同频。\\
+\\
+% \begin{flushleft} % 多行左对齐，默认成段，所以与上一段已经有间距，不用加一空白行作为间距。
+\raggedright 此后便可使用分量变量法， 将波动方程定态化， 并给出解的空间部分。 可见， 场的单色化， 
+是求解波动方程的充分条件之一、 是一个可求出解的有效途径； 同时， 场的单色化， 也是引入电磁非线性效应的必要条件。 
+而引入电磁非线性效应， 将与场的单色化一起， 共同构成波动方程单色化、定态化、给出解的充分条件。 % \raggedright 实际上是 left 左对齐，而且是该语句所在块，或者是该语句之后的段，都左对齐。因此上一“段”也左对齐了（可能是因为这里并没有分段，只是换行再换行多了一行而已，仍然是一整段）；按理说这语句放在上一段段首也可以，但会编译错误；而如果将该语句与这一段一起放在大括号内做为一个块，则不起作用，该分散对齐还是分散对齐，不知道为什么。
+% \end{flushleft}
+}
+， 还可分别写作另两种形式：
+
+{\setlength\abovedisplayskip{0pt} % 公式距离上下邻文的间距
+\setlength\belowdisplayskip{0pt}
+\begin{align}
+	&\left\{ \begin{array}{l}
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal E}} \right) + \frac{1}{{{\varepsilon _0}{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal D}}}{{\partial {t^2}}} =  - \frac{1}{{{\varepsilon _0}{c^2}}}\frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)\\
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal H}} \right) + \frac{1}{{{\mu _0}{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal B}}}{{\partial {t^2}}} = \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal P}} \right)
+		\end{array} \right.\\
+	&\left\{ \begin{array}{l}
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal D}} \right) + \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal D}}}{{\partial {t^2}}} = \nabla  \times \left( {\nabla  \times \tilde {\mathbcal P}} \right) - \frac{1}{{{c^2}}}\frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal M}} \right)\\
+		\nabla  \times \left( {\nabla  \times \tilde {\mathbcal B}} \right) + \frac{1}{{{c^2}}}\frac{{{\partial ^2}\tilde {\mathbcal B}}}{{\partial {t^2}}} = {\mu _0}\left[ {\nabla  \times \left( {\nabla  \times \tilde {\mathbcal M}} \right) + \frac{\partial }{{\partial t}}\left( {\nabla  \times \tilde {\mathbcal P}} \right)} \right]
+		\end{array} \right.
+\end{align}
+}
+
+但一般不采用这两种形式， 因为二者含有过多的、 关于电磁场的非线性函数的物理量们， 不便于求解。
+
+\subsection{复色场的单色化}
+
+从数学物理方法的角度， 任何一个周期函数都可用基本函数族展开为傅里叶级数； 以三角函数族为例， 
+任何一个复色矢量场可写作不连续单色子波的黎曼和。 
+
+那么在物理上，单色光波场便可用三角函数族表示； 但同时也可用三角函数族的复数形式表示， 
+这是因为数学物理方法上， 实数形式的傅里叶级数可推导出复数形式的傅里叶级数。 
+\sidenote{
+	在统计物理中， 对有限空间中的热辐射系统， 采取归一化或 B-K 周期性边界条件， 也来源于数学物理方法中， 
+将定义在有限区间上的非周期函数 $ f(x) $ ， 延拓为另一周期函数 $ g(x) $ ， 
+对新周期函数 $ g(x) $ 做傅里叶展开后， 用级数在和在原有限区间上的值， 代表原非周期函数 $ f(x) $ 。
+}
+
+在数学物理方法中， 实数和复数形式的傅里叶级数分别为：
+
+\begin{theorem}[Mathematics - 实数 \& 复数形式的傅里叶级数]
+	\begin{equation}\small
+		\begin{split}
+				g(x) &= {a_0} + \sum\limits_{i = 1}^\infty  {\left[ {{a_i}\cos \left( {\frac{{2\pi }}{L}i \cdot x} \right) + {b_i}\sin \left( {\frac{{2\pi }}{L}i \cdot x} \right)} \right]} \left( {a,b \in \mathbbm{R} } \right) \\
+				&= \sum\limits_{i =  - \infty }^\infty  {{c_i}{e^{i\frac{{2\pi }}{L}i \cdot x}}} \left( {c \in \mathbbm{C};{c_0} = {a_0},{c_ + } = \frac{{{a_i} - i{b_i}}}{2},{c_ - } = \frac{{{a_i} + i{b_i}}}{2}} \right)
+		\end{split}
+	\end{equation}
+\end{theorem}
+
+在物理上， 对物理量的傅里叶展开， 同样也有实数和复数形式 
+\marginnote[-1em]{
+	\begin{kaobox}[frametitle=推论 2.1.5 \  注释]
+		为方便表示， 认为 $ {{\mathbcal A}_i} \varparallel {{\mathbcal B}_i} \varparallel {{\mathbcal C}_i} $， 
+		此时叠加场 $ \tilde {{\mathbcal E}}(\bm{r},t) $ 是单向的； 但由于任何一个实际的复色多向场， 
+		仍可看做多个单向叠加场构成， 所以此处的假设是合理的。 
+	\end{kaobox}
+}：
+
+\begin{corollary}[Physics - 实数 \& 复数形式的傅里叶级数]
+	\begin{equation}\small
+		\begin{split}
+			\tilde {{\mathbcal E}}(\bm{r},t) &= {{\mathbcal A}_0} + \sum\limits_{i = 1}^\infty  {\left[ {{{\mathbcal A}_i}\cos \left( {\frac{{2\pi }}{\lambda }i\widehat {{{\bm k}_i}} \cdot \bm{r} - \frac{{2\pi }}{T}i \cdot t} \right) + {{\mathbcal B}_i}\sin \left( {\frac{{2\pi }}{\lambda }i\widehat {{{\bm k}_i}} \cdot \bm{r} - \frac{{2\pi }}{T}i \cdot t} \right)} \right]} \footnotemark[1] \\
+			&= {{\mathbcal A}_0} + \sum\limits_{i = 1}^\infty  {\left[ {{{\mathbcal A}_i}\cos \left( {{{\bm k}_i} \cdot \bm{r} - {\omega _i}t} \right) + {{\mathbcal B}_i}\sin \left( {{{\bm k}_i} \cdot \bm{r} - {\omega _i}t} \right)} \right]} \footnotemark[2] \\
+			&= \sum\limits_{i = 0}^\infty  {{{{\mathbcal C}_i}\cos \left( {{{\bm k}_i} \cdot \bm{r} - {\omega _i}t} - \varphi_i \right)}} \\
+			&\left( {\left| {\mathbcal A} \right|,\left| {\mathbcal B} \right|,\left| {\mathbcal C} \right| \in \mathbbm{R}}; \varphi_0 = 0 , {{\mathbcal A}_i} = {{\mathbcal C}_i}\cos \varphi_i, {{\mathbcal B}_i} = {{\mathbcal C}_i}\sin \varphi_i \right) \\
+			&= \sum\limits_{i =  - \infty }^\infty  {{{\bm C}_i}{e^{i({{\bm k}_i} \cdot {\bm r} - {\omega _i}t)}}} \\
+			&\left( {\left| {\bm C} \right| \in \mathbbm{C};{{\bm C}_0} = {{\mathbcal A}_0},{{\bm C}_ + } = \frac{{{{\mathbcal A}_i} - i{{\mathbcal B}_i}}}{2},{{\bm C}_ - } = \frac{{{{\mathbcal A}_i} + i{{\mathbcal B}_i}}}{2}} \right)
+		\end{split}
+		\footnotetext[1]{由点波源时域 \& 驻波场空域合成的， 行波场时空域}
+	\end{equation}
+	\footnotetext[2]{若 $ {\omega _i} $ 与 $ { {\bm k}_i} $ 的下标 $ i $ 都指代某单色光， 则  $ i $ 不相同
+	的 $ {\omega _i} $ 或 $ { {\bm k}_i} $ 可以相同。 否则若二者的下标表示频谱中的某频率， 则要求对于
+	$ i \in \mathbbm{N} $， 有 $ {\omega_i} = \frac{{2\pi }}{T}i $ 、 
+	$ {{\bm k}_i} = \frac{{2\pi }}{\lambda }i\widehat {{{\bm k}_i}} $ }
+\end{corollary}
+
+\marginnote[-16em]{
+	\begin{kaobox}[frametitle=推论 2.1.5 \  另一种不推荐的写法]
+	\begin{equation}
+		\begin{split}
+			&\tilde {{\mathbcal E}}(\bm{r},t) = \sum\limits_{i =  - \infty }^\infty  {{{\bm C}_i}{e^{i({{\bm k}_i} \cdot {\bm r} - {\omega _i}t)}}} \\
+			&= \sum\nolimits_i^{'} {{\bm C}_i}{e^{i({{\bm k}_i} \cdot {\bm r} - {\omega _i}t)}} + \mathbf{c.c.} \\
+			&= \sum\nolimits_i^{'} \left[ {{{\bm C}_i}{e^{i({{\bm k}_i} \cdot {\bm r} - {\omega _i}t)}} + \mathbf{c.c.}} \right] \\
+			&= \sum\limits_{i = 1}^\infty \left[ {{{{\mathbcal C}_i}\cos \left( {{{\bm k}_i} \cdot \bm{r} - {\omega _i}t} - \varphi_i \right)} + \mathbf{c.c.}} \right]
+		\end{split}
+	\end{equation}
+	\end{kaobox}
+}
+
+In the future I plan to add more options to set the paragraph formatting
+(justified or ragged) and the position of the margins (inner or outer in
+twoside mode, left or right in oneside mode).\sidenote{As of now,
+paragraphs are justified, formatted with \Command{singlespacing} (from
+the \Package{setspace} package) and \Command{frenchspacing}.}
+
+I take this opportunity to renew the call for help: everyone is
+encouraged to add features or reimplement existing ones, and to send me
+the results. You can find the GitHub repository at
+\url{https://github.com/fmarotta/kaobook}.
+
+\begin{kaobox}[frametitle=To Do]
+实现\Option{justify}和\Option{margin}选项。为了与\KOMAScript\xspace 样式保持一致， 它们应该接受一个简单开关作为参数， 其中简单开关应该是\Option{true}或\Option{false}， 或者\KOMAScript 支持的简单开关的其他标准值之一。有关更多信息， 请参阅\KOMAScript\xspace 文档。
+\end{kaobox}
+
+The above box is an example of a \Environment{kaobox}, which will be
+discussed more thoroughly in \frefch{mathematics}. Throughout the book I
+shall use these boxes to remarks what still needs to be done.
+
+\section{菊次郎小车车的春天}
+
+A bunch of packages are already loaded in the class because they are
+needed for the implementation. These include:
+
+\begin{itemize}
+	\item etoolbox
+	\item calc
+	\item xifthen
+	\item xkeyval
+	\item xparse
+	\item xstring
+\end{itemize}
+
+Many more packages are loaded, but they will be discussed in due time.
+Here, we will mention only one more set of packages, needed to change
+the paragraph formatting (recall that in the future there will be
+options to change this). In particular, the packages we load are:
+
+\begin{itemize}
+	\item ragged2e
+	\item setspace
+	\item hyphenat
+	\item microtype
+	\item needspace
+	\item xspace
+	\item xcolor (with options \Option{usenames,dvipsnames})
+\end{itemize}
+
+Some of the above packages do not concern paragraph formatting, but we
+nevertheless grouped them with the others. By default, the main text is
+justified and formatted with singlespacing and frenchspacing; the margin
+text is the same, except that the font is a bit smaller.
+
+\section{Document Structure}
+
+We provide optional arguments to the \Command{title} and
+\Command{author} commands so that you can insert short, plain text
+versions of this fields, which can be used, typically in the half-title
+or somewhere else in the front matter, through the commands
+\Command{@plaintitle} and \Command{@plainauthor}, respectively. The PDF
+properties \Option{pdftitle} and \Option{pdfauthor} are automatically
+set by hyperref to the plain values if present, otherwise to the normal
+values.\sidenote[-1.4cm][]{We think that this is an important point so
+we remark it here. If you compile the document with pdflatex, the PDF
+metadata will be altered so that they match the plain title and author
+you have specified; if you did not specify them, the metadata will be
+set to the normal title and author.}
+
+There are defined two page layouts, \Option{margin} and \Option{wide},
+and two page styles, \Option{plain} and \Option{fancy}. The layout
+basically concern the width of the margins, while the style refers to
+headers and footer; these issues will be
+discussed in \frefch{layout}.\sidenote{For now, suffice it to say that pages with
+the \Option{margin} layout have wide margins, while with the
+\Option{wide} layout the margins are absent. In \Option{plain} pages the
+headers and footer are suppressed, while in \Option{fancy} pages there
+is a header.}
+
+The commands \Command{frontmatter}, \Command{mainmatter}, and
+\Command{backmatter} have been redefined in order to automatically
+change page layout and style for these sections of the book. The front
+matter uses the \Option{margin} layout and the \Option{plain} page
+style. In the mainmatter the margins are wide and the headings are
+fancy. In the appendix the style and the layout do not change; however
+we use \Command{bookmarksetup\{startatroot\}} so that the bookmarks of
+the chapters are on the root level (without this, they would be under
+the preceding part). In the backmatter the margins shrink again and we
+also reset the bookmarks root.

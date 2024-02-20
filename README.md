@@ -1,11 +1,14 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes")
 
 # Undergraduate Personal Courses
 
 ## About
 * This repo 👉 [undergraduate courses](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
-    * 
+    * Contains 👉 [](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * Utilizes theory in ⊷ 👉 [2D ray-optics simulation](https://github.com/ChenZhu-Xie/ray_optics__xcz)
 * English「README」ⓔ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
+
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote")
 
 ## Description
 * Course notes, assignments, and presentation slides for major disciplines (divided into science and technology) during undergraduate studies
@@ -15,7 +18,7 @@
     * 「Important content」is placed as「files」in the「primary directory」
     * The「detailed information」of「the file」is placed in the form of「a folder」in the「secondary directory」with「the same serial number」as「the file」
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Self-Learning Notes")
 
 ## Inplementation
 1. Powerpoint includes videos
