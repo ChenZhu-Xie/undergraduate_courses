@@ -5,14 +5,16 @@
 
 ## 关于
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
-    * 包含笔记 [「热力学」与「统计物理」](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science\12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
+    * 包含笔记 ⊃ 👉 [「热力学」与「统计物理」](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science\12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
         * 使用理论 ⊷ 👉 [Illusions_of_Illustrations_·_Zodiac](https://gitee.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)
             * 属于书籍 [三本 电子书](https://gitee.com/ChenZhu-Xie/3_books_with_cpp)
                 * 内容来自 ⊂ [本科 创造](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/06__3.1__Self_Creations)
                     * 属于生涯 ⊂ [本科 活动](https://gitee.com/ChenZhu-Xie/undergraduate_activities)
                 * 动机源于 ≺ [手写书籍 数字化工程](https://gitee.com/ChenZhu-Xie/senior-high-school_activities/tree/master/4__6.2__Books_digitalization_project__3.0_year)
                     * 属于生涯 ⊂ [高中 活动](https://gitee.com/ChenZhu-Xie/senior-high-school_activities)
-    * 
+    * 包含作业 ⊃ 👉 [MCU Course Assignment「1A2B」](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/4__7.1__Micro_Control_Unit_(MCU)__3.5_year)
+        * 详细描述 ⇔ 👉 [「1A2B」➜「4A5B」](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B)
+            * 进阶游戏 ➚ 👉 [「1A2B」的扩展版「4A5B」](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B/tree/master/Xcz%20-%20从1阶到9阶的10维解密游戏_v1.03_Beta.cpp)
 * English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
