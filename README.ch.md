@@ -21,7 +21,7 @@
         * 使用技术 ⊷ 👉 [Latex](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/5__8.1__My_Latex_1st_try)
     * 奠定模型 技术基础 ≻ 👉 [NLAST-vector 模型 (私有)](https://gitee.com/ChenZhu-Xie/NLAST_private)、[NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)；[generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif)
         * 使用技术 ⊷ 👉 [Python](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/6__8.2__Python_Self-study__4.0_year.xlsm)
-    * 奠定项目 技术基础 ≻ 👉 [Illusions_of_Illustrations_·_Zodiac](https://gitee.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)
+    * 奠定项目 技术基础 ≻ 👉 [Illusions_of_Illustrations_·_Zodiac](https://gitee.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)、[『1A2B』&『4A5B』](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B)
         * 使用技术 ⊷ 👉 [C++](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/0__1.1__C++_Programming__0.5_year)
 * English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
