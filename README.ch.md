@@ -5,6 +5,9 @@
 
 ## 关于
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 包含演讲 ⊃ 👉 [「物理」与「人类未来」结课演讲](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
+        * 诞生工程 ⊶ 👉 [Stardust DDTank 全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+            * 推动竞赛 ⊃ 👉 [Stardust_DDTank 相关竞赛们](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
     * 包含笔记 ⊃ 👉 [「热力学」与「统计物理」](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science\12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
         * 使用理论 ⊷ 👉 [Illusions_of_Illustrations_·_Zodiac](https://gitee.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)
             * 属于书籍 [三本 电子书](https://gitee.com/ChenZhu-Xie/3_books_with_cpp)
@@ -49,7 +52,7 @@
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
     * （个人时间）由 18 - 22 岁小谢
     * （世界时间）在 2016 - 2020 年的 
-    * （个人阶段）大学时期 创建的
+    * （个人阶段）大学本科 创建的
 
 <!-- ## 软件架构
 软件架构说明
