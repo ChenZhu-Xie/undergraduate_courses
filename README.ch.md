@@ -41,7 +41,8 @@
     * 「文件」的「详细信息」，以「文件夹」的形式，放在与「文件」有「相同序号」的「二级目录」中
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes") -->
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Python_Self-study.png "Python - Learning Notes")
+<!-- ![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Python_Self-study.png "Python - Learning Notes") -->
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/双正双负正单轴晶体中的三光__4.0_year.png "双正双负正单轴晶体中的折射、反射、透射光")
 
 ## 实施
 1. 演讲 ppt 含视频

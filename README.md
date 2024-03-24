@@ -39,7 +39,8 @@
     * 「Important content」is placed as「files」in the「primary directory」
     * The「detailed information」of「the file」is placed in the form of「a folder」in the「secondary directory」with「the same serial number」as「the file」
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Self-Learning Notes")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Self-Learning Notes") -->
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/双正双负正单轴晶体中的三光__4.0_year.png "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals")
 
 ## Inplementation
 1. Powerpoint includes videos
