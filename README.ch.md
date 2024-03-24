@@ -1,5 +1,6 @@
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes") -->
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science courses - Learning Notes")
+<!-- ![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science courses - Learning Notes") -->
+[![发光二极管 LED💡| 激光二极管 LD の 原理](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Principles_of_LED_&_LD.png)](https://www.bilibili.com/BV1MZ421h7g3 "发光二极管 LED💡| 激光二极管 LD の 原理")
 
 # 本科 个人课程
 
@@ -29,7 +30,7 @@
 * English「README」ⓔ 👉 [undergraduate_courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/GR_OneNote.png "General Relativity - OneNote")
+[![本科👨‍🎓毕业答辩 ppt 📹🎞](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/「Bachelor_thesis」_Defense__4.0_year.png)](https://www.bilibili.com/BV1DJ4m1b7qA "本科👨‍🎓毕业答辩 ppt 📹🎞")
 
 ## 介绍
 * 大学本科时期 的 各主要学科（分为 科学、技术）的 课程笔记、作业，以及 演讲 ppt
@@ -48,11 +49,15 @@
 2. 学业水平 含「随时间演化」的切片/断面
     * 需要进入「Total_Grades」文件夹的「子文件夹」中查看 相关文件
 
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science Courses - Learning Notes")
+
 ## 历史
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
     * （个人时间）由 18 - 22 岁小谢
     * （世界时间）在 2016 - 2020 年的 
     * （个人阶段）大学本科 创建的
+
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
 
 <!-- ## 软件架构
 软件架构说明

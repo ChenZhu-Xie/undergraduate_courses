@@ -1,4 +1,5 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes") -->
+[![The Principle of LED💡and LD](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Principles_of_LED_&_LD.png)](https://youtu.be/pFG_w5GX8Xw "The Principle of LED💡and LD")
 
 # Undergraduate Personal Courses
 
@@ -27,7 +28,8 @@
         * Employs tech ⊷ 👉 [C++](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/0__1.1__C++_Programming__0.5_year)
 * 中文「自述文档」㊥ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
+[![My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Principles_of_LED_&_LD.png)](https://youtu.be/MgktNPbYhsc "My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞")
 
 ## Description
 * Course notes, assignments, and presentation slides for major disciplines (divided into science and technology) during undergraduate studies
@@ -45,12 +47,15 @@
 2. Academic grades/performance/achievements includes「slices over time」or「sections of time evolution」
     * To view relevant files, enter the「subfolder」of the「Total_Grades folder」
 
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science Courses - Learning Notes")
+
 ## History
 * This repo 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses) was built
     * (Personal time) by 18~22-year-old little Xie
     * (World time) during 2016 - 2020
     * (Personal stage) when I was in college as an undergraduate
 
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
 
 <!-- ## Software Architecture
 Software architecture description
