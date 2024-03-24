@@ -50,7 +50,7 @@
 2. 学业水平 含「随时间演化」的切片/断面
     * 需要进入「Total_Grades」文件夹的「子文件夹」中查看 相关文件
 
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science Courses - Learning Notes")
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
 
 ## 历史
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
@@ -58,7 +58,7 @@
     * （世界时间）在 2016 - 2020 年的 
     * （个人阶段）大学本科 创建的
 
-![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
+![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/courses_science_notes.png "Science Courses - Learning Notes")
 
 <!-- ## 软件架构
 软件架构说明

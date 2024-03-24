@@ -48,7 +48,8 @@
 2. Academic grades/performance/achievements includes「slices over time」or「sections of time evolution」
     * To view relevant files, enter the「subfolder」of the「Total_Grades folder」
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science Courses - Learning Notes")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
+
 
 ## History
 * This repo 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses) was built
@@ -56,7 +57,7 @@
     * (World time) during 2016 - 2020
     * (Personal stage) when I was in college as an undergraduate
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science Courses - Learning Notes")
 
 <!-- ## Software Architecture
 Software architecture description
