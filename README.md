@@ -29,7 +29,7 @@
 * 中文「自述文档」㊥ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
-[![My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Principles_of_LED_&_LD.png)](https://youtu.be/MgktNPbYhsc "My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞")
+[![My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/「Bachelor_thesis」_Defense__4.0_year.png)](https://youtu.be/MgktNPbYhsc "My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞")
 
 ## Description
 * Course notes, assignments, and presentation slides for major disciplines (divided into science and technology) during undergraduate studies
