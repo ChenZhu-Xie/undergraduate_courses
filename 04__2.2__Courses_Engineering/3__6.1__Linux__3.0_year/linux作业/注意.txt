@@ -1,3 +1,0 @@
-syntax error near unexpected token `else'
-遇到这个问题，请首先检查一下提示行，即else的上面一行，有没有少个语句。
-比如else上面有个do循环体，但else上面少了其上面那个do的结束语done。

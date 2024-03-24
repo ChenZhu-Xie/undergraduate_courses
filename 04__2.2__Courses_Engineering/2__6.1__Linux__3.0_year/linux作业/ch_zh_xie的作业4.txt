@@ -1,0 +1,73 @@
+整数运算：
+#!/bin/bash
+if [ $# -ne 3 ];then
+  echo  'Usage: ./exist.sh Arg1 Arg2 Arg3'
+  exit 3
+fi
+if ! expr $1 + 0 &> /dev/null;then
+#我之前写的是if ! echo $1 | sed 's/[0-9]//g' &> /dev/null;then
+#echo $1 | sed 's/[0-9]//g意思是将echo后面的东西作为一个文件的文本内容，且将其文件名
+#传给sed的FILE；然后sed将其中的数字全删了！
+#有点问题，即使sed抓不到数字，它仍不会报错，因为抓不到就抓不到呗= =，就保留原样。
+  echo  'Please enter parameters like this: num char num!'
+  exit 4
+elif ! expr $3 + 0 &> /dev/null;then
+# expr $3 is not correct;because it will give $?=0 when $3=char !!
+  echo  'Please enter parameters like this: num char num!'
+  exit 5
+fi
+if [ $2 == + ];then
+  echo "$[$1+$3]"
+  exit 6
+elif [ $2 == - ];then
+  echo "$[$1-$3]"
+  exit 7
+elif [ $2 == m ];then
+# m means multiply!
+# Attention: we can't use * in command editor !! it means any word in any lengt$
+  echo "$[$1*$3]"
+  exit 8
+elif [ $2 == / ];then
+  echo "$[$1/$3]"
+  exit 9
+else
+  echo "char must be one of the +-m/ !!"
+  exit 10
+fi
+
+浮点运算(不过还是不支持小数输入——比如8.4，因为含有.而被拒之门外，被认为是b65f这样的东东)：
+#!/bin/bash
+if [ $# -ne 3 ];then
+  echo  'Usage: ./exist.sh Arg1 Arg2 Arg3'
+  exit 3
+fi
+if ! expr $1 + 0 &> /dev/null;then
+#我之前写的是if ! echo $1 | sed 's/[0-9]//g' &> /dev/null;then
+#echo $1 | sed 's/[0-9]//g意思是将echo后面的东西作为一个文件的文本内容，且将其文件名
+#传给sed的FILE；然后sed将其中的数字全删了！
+#有点问题，即使sed抓不到数字，它仍不会报错，因为抓不到就抓不到呗= =，就保留原样。
+  echo  'Please enter parameters like this: num char num!'
+  exit 4
+elif ! expr $3 + 0 &> /dev/null;then
+# expr $3 is not correct;because it will give $?=0 when $3=char !!
+  echo  'Please enter parameters like this: num char num!'
+  exit 5
+fi
+if [ $2 == + ];then
+  echo "scale=2;$1+$3" | bc -l
+  exit 6
+elif [ $2 == - ];then
+  echo "scale=2;$1-$3" | bc -l
+  exit 7
+elif [ $2 == m ];then
+# m means multiply!
+# Attention: we can't use * in command editor !! it means any word in any lengt$
+  echo "scale=2;$1*$3" | bc -l
+  exit 8
+elif [ $2 == / ];then
+  echo "scale=2;$1/$3" | bc -l
+  exit 9
+else
+  echo "char must be one of the +-m/ !!"
+  exit 10
+fi

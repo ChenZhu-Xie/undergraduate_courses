@@ -1,0 +1,83 @@
+最后的版本：
+#
+#!/bin/bash
+stat usernames.log &> /dev/null || touch usernames.log
+read -p "Please enter a username: " username
+cat >> usernames.log <<end
+$username
+end
+fanyinhao=`echo "$username" | wc -c`
+! id $username &> /dev/null && sudo useradd -d /home/$username -m $username && echo "$username:$username" | sudo chpasswd && echo "$username has been created successfully!!" || echo -e "This user(`[ $fanyinhao -ne 1 ] && echo "$username" || echo 'mxiangying'`) has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+开发日志：
+
+! id usr1 && sudo useradd -d /home/usr1 -m usr1 && echo 'usr1:usr1' | sudo chpasswd || echo 'This user has already existed!!' && echo "There are `wc -l /etc/passwd | cut -d ' ' -f1` users !!"
+判断一个用户是否存在，如果用户不存在，则添加用户并设置密码；否则显示“用户已存在”，且取得当前有多少个用户。——去passwd把第一个字段取出来，然后...。
+只显示他想要显示的，其他的提示信息扔在胃桶里！
+
+1.一个烧脑版本：有点小问题——就是无论如何都会输出最后一个与后面的there are 43 users。
+若id不存在，则第一个命令状态的返回值为真，则继续执行第一个与运算后面的命令；即执行第二个命令，第二个命令返回值为真，则第一个命令和第二个命令的与运算结果为真，该真作为第二个与运算的第一个参数，于是继续执行第二个与运算；即开始执行第三个命令，第三个命令返回值为真，则第二个与运算之前和之后的命令都为真，则第二个与运算的结果为真，作为第一个或运算的输入，则或运算跳过其后面的命令，且或运算结果为真，作为第三个与运算的输入，于是第三个与运算会考虑其后面的命令，继续执行，并显示43 users。
+((((!假)&&真)&&真)||不判断)&&真=(真||不判断)&&真×    ((((!假)&&真)&&真)||不判断)||不判断=(真||不判断)||不判断√
+((((!真)&&不判断)&&不判断)||真)&&真=(假||真)&&真√    ((((!真)&&不判断)&&不判断)||真)||不判断=(假||真)||不判断×
+#!/bin/bash
+! id usr1 &> /dev/null && sudo useradd -d /home/usr1 -m usr1 && echo 'usr1:usr1' | sudo chpasswd || echo 'This user has already existed!!' && echo "There are `wc -l /etc/passwd | cut -d ' ' -f1` users !!"
+
+1.1.解决方法：不用两个echo，将要想说的话放进一个echo里就行了；但得加入换行符，因此要-e；而且要双引号，因为有反引号。
+#!/bin/bash
+! id usr1 &> /dev/null && sudo useradd -d /home/usr1 -m usr1 && echo 'usr1:usr1' | sudo chpasswd || echo -e "This user has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+1.2.创建成功有提示信息版：仍然用第三个与运算符将此第四个命令连接于第一个或运算符之前！
+#!/bin/bash
+! id usr1 &> /dev/null && sudo useradd -d /home/usr1 -m usr1 && echo 'usr1:usr1' | sudo chpasswd && echo 'usr1 has been created successfully!!' || echo -e "This user has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+2.超级牛逼可输入用户名版：
+
+2.1.原始版本：
+#!/bin/bash
+stat usernames.log &> /dev/null || touch usernames.log
+hangshu1=`wc -l /home/mxiangying/usernames.log | cut -d ' ' -f1`
+read -p "Please enter a username: " username
+cat >> usernames.log <<end
+$username
+end
+hangshu2=`wc -l /home/mxiangying/usernames.log | cut -d ' ' -f1`
+daoshu=$(($hangshu2-$hangshu1))
+username=`tail -$((daoshu)) /home/mxiangying/usernames.log | head -1`
+#这一行还可对这倒数第n行进行标记
+! id $username &> /dev/null && sudo useradd -d /home/$username -m $username && echo "$username:$username" | sudo chpasswd && echo "$username has been created successfully!!" || echo -e "This user has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+2.1.1.有注释：
+#!/bin/bash
+stat usernames.log &> /dev/null || touch usernames.log
+#若有该文件，则不执行；否则创建该log文件(file usernames.log不行，因为无论如何ehco "$?"都是0，都为真；less也不行，虽然它的ehco "$?"是对的，但若吃掉了错误信息，则无法创建文件)
+hangshu1=`wc -l /home/mxiangying/usernames.log | cut -d ' ' -f1`
+#输入之前“截个图”看看有多少行
+cat >> usernames.log <<end(不再用)
+hangshu2=`wc -l /home/mxiangying/usernames.log | cut -d ' ' -f1`
+#输入之后，再“截个图”看看有多少行
+daoshu=$(($hangshu2-$hangshu1))
+#获得多出来的行数，作为整数值储存起来
+username=`tail -$((daoshu)) /home/mxiangying/usernames.log | head -1`
+#将新log中，的倒数第daoshu行作为用户名
+#这一行还可对这倒数第n行进行标记
+! id $username &> /dev/null && sudo useradd -d /home/$username -m $username && echo "$username:$username" | sudo chpasswd && echo "$username has been created successfully!!" || echo -e "This user has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+2.2.无效后我用了read：放弃使用cat获取用户输入(它只能获取脚本里的输入)，但仍要用cat来写入log
+好像反引号无法嵌套多层？
+#!/bin/bash
+stat usernames.log &> /dev/null || touch usernames.log
+read -p "Please enter a username: " username
+cat >> usernames.log <<end
+$username
+end
+! id $username &> /dev/null && sudo useradd -d /home/$username -m $username && echo "$username:$username" | sudo chpasswd && echo "$username has been created successfully!!" || echo -e "This user(`[ `echo "$username" | wc -c` -ne 1 ] && echo "$username" || echo 'mxiangying'`) has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"
+
+2.3.将内层反引号用变量fanyinhao替换
+#!/bin/bash
+stat usernames.log &> /dev/null || touch usernames.log
+read -p "Please enter a username: " username
+cat >> usernames.log <<end
+$username
+end
+fanyinhao=`echo "$username" | wc -c`
+! id $username &> /dev/null && sudo useradd -d /home/$username -m $username && echo "$username:$username" | sudo chpasswd && echo "$username has been created successfully!!" || echo -e "This user(`[ $fanyinhao -ne 1 ] && echo "$username" || echo 'mxiangying'`) has already existed!\nThere are `wc -l /etc/passwd | cut -d ' ' -f1` users!!"

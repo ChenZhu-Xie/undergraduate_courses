@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+  echo  'Usage: ./exist.sh Arg1'
+  exit 3
+fi
+if ! `id $1 &> /dev/null`;then
+  echo  'No such a user!'
+  exit 4
+fi
+if [ `id -n -u $1 &> /dev/null` == `id -n -g $1 &> /dev/null`];then
+   echo "username($1) is as the same as groupname."
+   exit 5
+else
+   echo "username($1) is not the same as groupname(`id -n-g $1 &> /dev/null`)."
+   exit 6
+fi
