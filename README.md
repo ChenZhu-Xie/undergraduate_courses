@@ -1,5 +1,5 @@
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science courses - Learning Notes") -->
-[![The Principle of LED💡and LD](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Principles_of_LED_&_LD.png)](https://youtu.be/pFG_w5GX8Xw "The Principle of LED💡and LD")
+[![The Principle of LED💡and LD](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Principles_of_LED_&_LD.png)](https://youtu.be/pFG_w5GX8Xw "The Principle of LED💡and LD.mp4")
 
 # Undergraduate Personal Courses
 
@@ -26,10 +26,10 @@
         * Employ tech ⊷ 👉 [Python](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/6__8.2__Python_Self-study__4.0_year.xlsm)
     * Builds up project ≻ 👉 [Illusions_of_Illustrations_·_Zodiac](https://github.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』), [『1A2B』&『4A5B』](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B)
         * Employs tech ⊷ 👉 [C++](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/0__1.1__C++_Programming__0.5_year)
-* 中文「自述文档」㊥ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
+* 中文「自述文档」㊥ 👉 [undergraduate courses](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->
-[![My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/「Bachelor_thesis」_Defense__4.0_year.png)](https://youtu.be/MgktNPbYhsc "My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞")
+[![My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/「Bachelor_thesis」_Defense__4.0_year.png)](https://youtu.be/MgktNPbYhsc "My Bachelor 👨‍🎓 Thesis Defense Slides 📹🎞.mp4")
 
 ## Description
 * Course notes, assignments, and presentation slides for major disciplines (divided into science and technology) during undergraduate studies
@@ -40,7 +40,7 @@
     * The「detailed information」of「the file」is placed in the form of「a folder」in the「secondary directory」with「the same serial number」as「the file」
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Self-Learning Notes") -->
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/双正双负正单轴晶体中的三光__4.0_year.png "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals")
+[![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/双正双负正单轴晶体中的三光__4.0_year.png "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals.ggb")](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals.ggb")
 
 ## Inplementation
 1. Powerpoint includes videos
@@ -48,7 +48,7 @@
 2. Academic grades/performance/achievements includes「slices over time」or「sections of time evolution」
     * To view relevant files, enter the「subfolder」of the「Total_Grades folder」
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Atomic_Physics__2.0_year.png "Atomic Physics")
+[![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Atomic_Physics__2.0_year.png "Atomic Physics - Learning Note.pdf")](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/09__4.4__Atomic_Physics__2.0_year.pdf "Atomic Physics - Learning Note.pdf")
 
 
 ## History
@@ -57,7 +57,7 @@
     * (World time) during 2016 - 2020
     * (Personal stage) when I was in college as an undergraduate
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science Courses - Learning Notes")
+[![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/courses_science_notes.png "Science Courses - Learning Notes")](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science "Science Courses - Learning Notes")
 
 <!-- ## Software Architecture
 Software architecture description
