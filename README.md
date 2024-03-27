@@ -8,7 +8,7 @@
     * Contains representation ⊃ 👉 [Cometitions with project Stardust_DDTank](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
         * Generate project ⊶ 👉 [Stardust Multi-terminal DDTank Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
             * Drive competition ⊃ 👉 [Cometitions with project Stardust_DDTank](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
-    * Contains note ⊃ 👉 [「Thermo Dynamics」&「Statistical Physics」](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science\12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
+    * Contains note ⊃ 👉 [「Thermo Dynamics」&「Statistical Physics」](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/12__5.3__Email_exchange_with「Thermodynamics_and_Statistical_Physics」teacher_Li_Nan__2.5_year)
         * Utilizes theory in ⊷ 👉 [Illusions_of_Illustrations_·_Zodiac](https://github.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』)
             * Contained by books ⊂ 👉 [three e-books](https://github.com/ChenZhu-Xie/3_books_with_cpp)
                 * Belongs to ⊂ [undergradutate creations](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/06__3.1__Self_Creations)
