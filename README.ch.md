@@ -42,7 +42,8 @@
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes") -->
 <!-- ![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Python_Self-study.png "Python - Learning Notes") -->
-[![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/双正双负正单轴晶体中的三光__4.0_year.png "双正双负正单轴晶体中的折射、反射、透射光.ggb")](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "双正双负正单轴晶体中的折射、反射、透射光.ggb")
+[![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/双正双负正单轴晶体中的三光__4.0_year.png "ε,μ同正或同负的正单轴晶体中的折射、反射、透射光.ggb")](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "ε,μ同正或同负的正单轴晶体中的折射、反射、透射光.ggb")
+
 
 ## 实施
 1. 演讲 ppt 含视频

@@ -40,7 +40,7 @@
     * The「detailed information」of「the file」is placed in the form of「a folder」in the「secondary directory」with「the same serial number」as「the file」
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Self-Learning Notes") -->
-[![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/双正双负正单轴晶体中的三光__4.0_year.png "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals.ggb")](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "Refraction, Reflection, and Transmission of Light in Double Positive and Double Negative Positive Uniaxial Crystals.ggb")
+[![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/双正双负正单轴晶体中的三光__4.0_year.png "GitHub - Refraction, Reflection, and Transmission of Light in Positive Uniaxial Crystals with positive/negative ε,μ.ggb")](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "GitHub - Refraction, Reflection, and Transmission of Light in Positive Uniaxial Crystals with positive/negative ε,μ.ggb")
 
 ## Inplementation
 1. Powerpoint includes videos
