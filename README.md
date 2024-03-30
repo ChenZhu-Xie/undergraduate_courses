@@ -25,7 +25,7 @@
     * Builds up models ≻ 👉 [NLAST-vector model (Private)](https://github.com/ChenZhu-Xie/NLAST_private), [NLAST-scalar model](https://github.com/ChenZhu-Xie/NLAST); [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif)
         * Employ tech ⊷ 👉 [Python](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/6__8.2__Python_Self-study__4.0_year.xlsm)
     * Builds up project ≻ 👉 [Illusions_of_Illustrations_·_Zodiac](https://github.com/ChenZhu-Xie/3_books_with_cpp/tree/master/cpp_codes_for_book2『Illusions_of_Illustrations_·_Zodiac』), [『1A2B』&『4A5B』](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B)
-        * Employs tech ⊷ 👉 [C++](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/0__1.1__C++_Programming__0.5_year)
+        * Employs tech ⊷ 👉 [C++](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/1__1.1__C++_Programming__0.5_year)
 * 中文「自述文档」㊥ 👉 [undergraduate courses](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/GR_OneNote.png "General Relativity - OneNote") -->

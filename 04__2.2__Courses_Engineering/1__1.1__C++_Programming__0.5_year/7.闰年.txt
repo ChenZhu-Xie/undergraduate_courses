@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+int y,m;
+reinput:
+printf("请依次输入'年,月'：\n"); 
+scanf("%d,%d",&y,&m);
+switch(m)
+{
+case 1:
+case 3:
+case 5:
+case 7:
+case 8:
+case 10:
+case 12:printf("这个月有31天\n");break;
+case 2 : if(y%4==0&&y%100!=0||y%400==0)
+printf("这个月有29天\n");
+else printf("这个月有28天\n");break;
+case 4:
+case 6:
+case 9:
+case 11:printf("这个月有30天\n");break;
+default:printf("您输入的月份数有误，请重新输入:\n");goto reinput;
+}
+}
