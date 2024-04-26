@@ -6,6 +6,8 @@
 
 ## 关于
 * 该仓库 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 可与仓库 👉 [本科 活动](https://gitee.com/ChenZhu-Xie/undergraduate_activities) 合并的同时，不产生「序号冲突」
+        * 二者「完整地描述」了「我的大学 本科生涯」
     * 包含演讲 ⊃ 👉 [「物理」与「人类未来」结课演讲](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
         * 诞生工程 ⊶ 👉 [Stardust DDTank 全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
             * 推动竞赛 ⊃ 👉 [Stardust_DDTank 相关竞赛们](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
@@ -43,7 +45,6 @@
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/undergraduate_courses/master/img/Python_Self-study.png "Python - Learning Notes") -->
 <!-- ![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/Python_Self-study.png "Python - Learning Notes") -->
 [![fig](https://gitee.com/ChenZhu-Xie/undergraduate_courses/raw/master/img/双正双负正单轴晶体中的三光__4.0_year.png "ε,μ同正或同负的正单轴晶体中的折射、反射、透射光.ggb")](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/03__2.1__Courses_Science/20__7.2__Bachelor_Thesis__3.5_year/King%20of%20kings——双正双负正单轴晶体中的三光7.ggb "ε,μ同正或同负的正单轴晶体中的折射、反射、透射光.ggb")
-
 
 ## 实施
 1. 演讲 ppt 含视频

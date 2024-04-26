@@ -5,6 +5,8 @@
 
 ## About
 * This repo 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
+    * can be merged with repo 👉 [undergraduate activities](https://github.com/ChenZhu-Xie/undergraduate_activities), without generating any「serial number conflicts」
+        * The 2 repos together「fully described」my college career「as an undergraduate」
     * Contains representation ⊃ 👉 [Cometitions with project Stardust_DDTank](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
         * Generate project ⊶ 👉 [Stardust Multi-terminal DDTank Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
             * Drive competition ⊃ 👉 [Cometitions with project Stardust_DDTank](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
